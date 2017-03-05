@@ -1,4 +1,16 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>190</x><y>270</y><w>240</w><h>190</h></coordinates><panel_attributes>/*Notification*/
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>230</x><y>160</y><w>240</w><h>190</h></coordinates><panel_attributes>/*Notification*/
+--
+-message  String
+-type: Notification
+-signal: Signal
+--
++getMessage(): String
++setMessage(_message: String): void
++getType(): String
++setType(_type: String): void
++getSignal(): String
++setSignal(_signal: String): void
++validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>410</y><w>240</w><h>190</h></coordinates><panel_attributes>*TextNotification*
 --
 -message  String
 -type: Notification
