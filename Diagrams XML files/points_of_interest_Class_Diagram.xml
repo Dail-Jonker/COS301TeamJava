@@ -1,0 +1,26 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>30</y><w>540</w><h>200</h></coordinates><panel_attributes>Points_of_interest
+--
+-name:String
+-description: String
+-location:String
+-year_built: Date
+-size(in_cubic_meters):double
+--
++Points_of_interest(name:String,description:String,location:String,year_built:Date,size:Double)
++getLocation():String
++getDescription():String
++getName():String
++getYearBuilt():Date
++getSize():double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>280</y><w>470</w><h>90</h></coordinates><panel_attributes>Buildings
+--
+-architectural_history:String
+--
++Buildings(architectural_history:String,name:String,description:String,location:String)
++getHistory():String
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>430</y><w>450</w><h>80</h></coordinates><panel_attributes>Structures
+--
+-structure_design:String
+--
++Structure(structure_design:String,name:String,description:String,location:String)
++getDesign():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>220</y><w>30</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>220</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
