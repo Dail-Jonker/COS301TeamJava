@@ -1,61 +1,9 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>170</y><w>240</w><h>190</h></coordinates><panel_attributes>/*Notification*/
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>270</x><y>160</y><w>220</w><h>130</h></coordinates><panel_attributes>Notifications
 --
--message  String
--type: Notification
--signal: Signal
+-priorityLevel:int
+-description:String
 --
-+getMessage(): String
-+setMessage(_message: String): void
-+getType(): String
-+setType(_type: String): void
-+getSignal(): String
-+setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>410</y><w>240</w><h>190</h></coordinates><panel_attributes>*TextNotification*
---
--message  String
--type: Notification
--signal: Signal
---
-+getMessage(): String
-+setMessage(_message: String): void
-+getType(): String
-+setType(_type: String): void
-+getSignal(): String
-+setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>410</y><w>240</w><h>190</h></coordinates><panel_attributes>*EmailNotification*
---
--message  String
--type: Notification
--signal: Signal
---
-+getMessage(): String
-+setMessage(_message: String): void
-+getType(): String
-+setType(_type: String): void
-+getSignal(): String
-+setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1010</x><y>410</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Signal*/
---
--userID: long
--signalType: Signal
---
-+getUID(): long
-+setUID(_userID: long): void
-+getSignalType(): Signal
-+setSignalType(_signalType: Signal): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>710</y><w>240</w><h>130</h></coordinates><panel_attributes>*Event*
---
--userID: long
--signalType: Signal
---
-+getUID(): long
-+setUID(_userID: long): void
-+getSignalType(): Signal
-+setSignalType(_signalType: Signal): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>870</x><y>710</y><w>240</w><h>130</h></coordinates><panel_attributes>*Point of Interest*
---
--userID: long
--signalType: Signal
---
-+getUID(): long
-+setUID(_userID: long): void
-+getSignalType(): Signal
-+setSignalType(_signalType: Signal): void</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+setDescription(description:String):void
+getDescription():String
+setPriority(priorityLevel:int):void
+getPriority():int</panel_attributes><additional_attributes></additional_attributes></element></diagram>

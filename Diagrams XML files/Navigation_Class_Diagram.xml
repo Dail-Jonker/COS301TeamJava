@@ -1,28 +1,15 @@
-<diagram program="umletino" version="14.2">
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>260</x>
-      <y>180</y>
-      <w>210</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes>Navigation 
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>260</x><y>180</y><w>270</w><h>200</h></coordinates><panel_attributes>Navigation 
 --
--start_location: String 
--end_destination: String 
--distance: double 
--traffic_level:int 
--notification: Notification 
+start_location: String 
+end_destination: String 
+distance: double 
+traffic_level:int 
+notification: Notification 
 --
-+setStartLocation():void 
-+setEndDestination():void 
-+findOptimalRoute():void 
-+calculateDistance():double 
-+checkTrafficLevel():int
-+checkTrafficLevel():int
-    </panel_attributes>
-  <additional_attributes/>
-  </element>
-</diagram>
+setStartLocation(start_location:String):void 
+setEndDestination(end_destination:String):void 
+findOptimalRoute():void 
+calculateDistance():double 
+checkTrafficLevel():int
+checkTrafficLevel():int
+    </panel_attributes><additional_attributes></additional_attributes></element></diagram>
