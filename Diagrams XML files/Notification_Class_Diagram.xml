@@ -34,7 +34,7 @@
 +setType(_type: String): void
 +getSignal(): String
 +setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>990</x><y>410</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Signal*/
++validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1010</x><y>410</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Signal*/
 --
 -userID: long
 -signalType: Signal
@@ -42,7 +42,15 @@
 +getUID(): long
 +setUID(_userID: long): void
 +getSignalType(): Signal
-+setSignalType(_signalType: Signal): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>620</y><w>240</w><h>130</h></coordinates><panel_attributes>*Event*
++setSignalType(_signalType: Signal): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>710</y><w>240</w><h>130</h></coordinates><panel_attributes>*Event*
+--
+-userID: long
+-signalType: Signal
+--
++getUID(): long
++setUID(_userID: long): void
++getSignalType(): Signal
++setSignalType(_signalType: Signal): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>870</x><y>710</y><w>240</w><h>130</h></coordinates><panel_attributes>*Point of Interest*
 --
 -userID: long
 -signalType: Signal
