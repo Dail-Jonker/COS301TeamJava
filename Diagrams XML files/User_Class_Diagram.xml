@@ -1,27 +1,31 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>490</x><y>110</y><w>210</w><h>160</h></coordinates><panel_attributes>User
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>60</y><w>280</w><h>220</h></coordinates><panel_attributes>User
 --
--username
--password
--email
--userID
+-username: String
+-password: String
+-email: String
+-userID: long
 --
-+getUser(userName)
-+getUserEmail(userEmail)
-+authenticate()
-+notifyUser()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>370</y><w>210</w><h>130</h></coordinates><panel_attributes>Registered User
++getUsername(_userID: long): String
++getUserID(): long
++getUserEmail(_userID: long): String
++setUsername(_userID: long): void
++setUserID(_userID: long): void
++setUserEmail(_userID: long): void
++authenticate(email: String): void
++notifyUser(emal: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>380</y><w>360</w><h>130</h></coordinates><panel_attributes>Registered User
 --
--isAdmin
+-isAdmin: bool
 --
-+crudProfile()
-+manageUserInfo()
-+removeAdminRights()
-+grantAdminRights()
-+removeUser()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>370</y><w>210</w><h>50</h></coordinates><panel_attributes>Guest User
++crudProfile(_userID: long): void
++manageUserInfo(_userID: long, _isAdmin: bool): void
++removeAdminRights(_userID: long, _isAdmin: bool): void
++grantAdminRights(_userID: long, _isAdmin: bool): void
++removeUser(_userID: long, _isAdmin: bool): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>380</y><w>210</w><h>50</h></coordinates><panel_attributes>Guest User
 --
-+register()
++register(): void
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>260</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>290</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>290</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>270</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>300</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>300</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>310</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>310</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
 </panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
