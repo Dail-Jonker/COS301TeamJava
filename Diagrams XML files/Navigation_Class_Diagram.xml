@@ -10,18 +10,18 @@
     </coordinates>
     <panel_attributes>Navigation 
 --
-start_location: String 
-end_destination: String 
-distance: double 
-traffic_level:int 
-notification: Notification 
+-start_location: String 
+-end_destination: String 
+-distance: double 
+-traffic_level:int 
+-notification: Notification 
 --
-setStartLocation():void 
-setEndDestination():void 
-findOptimalRoute():void 
-calculateDistance():double 
-checkTrafficLevel():int
-checkTrafficLevel():int
++setStartLocation():void 
++setEndDestination():void 
++findOptimalRoute():void 
++calculateDistance():double 
++checkTrafficLevel():int
++checkTrafficLevel():int
     </panel_attributes>
   <additional_attributes/>
   </element>
