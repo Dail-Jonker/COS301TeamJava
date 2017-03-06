@@ -1,4 +1,4 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>30</y><w>540</w><h>200</h></coordinates><panel_attributes>Points_of_interest
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>170</x><y>0</y><w>540</w><h>290</h></coordinates><panel_attributes>Points_of_interest
 --
 -name:String
 -description: String
@@ -11,16 +11,34 @@
 +getDescription():String
 +getName():String
 +getYearBuilt():Date
-+getSize():double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>280</y><w>470</w><h>90</h></coordinates><panel_attributes>Buildings
++getSize():double
++search(name:String):String
++saveLocation(location:String):void
++getCurrentLocation():String
++addLocatior(locatior:String):void
++modifyLocatior(name:String,description:String,location:String,year_built:Date,size:Double)
++removeLocatior(locatior:String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>310</y><w>470</w><h>150</h></coordinates><panel_attributes>Buildings
 --
 -architectural_history:String
+-lecture_halls:int
+-offices:int
+-bathrooms:int
 --
-+Buildings(architectural_history:String,name:String,description:String,location:String)
++Buildings(bathrooms:int,offices:int,lecture_halls:int,architectural_history:String,name:String,description:String,location:String)
 +getHistory():String
++getNumberOfRooms():int
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>430</y><w>450</w><h>80</h></coordinates><panel_attributes>Structures
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>480</y><w>450</w><h>80</h></coordinates><panel_attributes>Structures
 --
 -structure_design:String
 --
 +Structure(structure_design:String,name:String,description:String,location:String)
-+getDesign():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>220</y><w>30</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>220</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
++getDesign():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>280</y><w>30</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>280</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>544</x><y>351</y><w>590</w><h>90</h></coordinates><panel_attributes>Place
+--
+-type:String
+-activities:String[]
+--
+Place(type:String,activities:String,name:String,description:String,location:String,year_built:Date,size:Double)
++getActivities():String[]
++getType():String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>644</x><y>281</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
