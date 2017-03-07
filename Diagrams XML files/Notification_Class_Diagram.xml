@@ -1,37 +1,28 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>150</x><y>100</y><w>240</w><h>190</h></coordinates><panel_attributes>/*Notification*/
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>420</x><y>240</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Notification*/
 --
 -message  String
--type: Notification
--signal: Signal
+-type: NotificationType
 --
 +getMessage(): String
 +setMessage(_message: String): void
-+getType(): String
-+setType(_type: String): void
-+getSignal(): String
-+setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>390</y><w>240</w><h>190</h></coordinates><panel_attributes>*TextNotification*
++getType(): NotificationType
++setType(_type: NotificationType): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>440</y><w>240</w><h>140</h></coordinates><panel_attributes>*TextNotification*
 --
 -message  String
--type: Notification
--signal: Signal
+-type: NotificationType
 --
 +getMessage(): String
 +setMessage(_message: String): void
-+getType(): String
-+setType(_type: String): void
-+getSignal(): String
-+setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>390</y><w>240</w><h>190</h></coordinates><panel_attributes>*EmailNotification*
++getType(): NotificationType
++setType(_type: NotificationType): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>390</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>360</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>440</y><w>240</w><h>140</h></coordinates><panel_attributes>*EmailNotification*
 --
 -message  String
--type: Notification
--signal: Signal
+-type: NotificationType
 --
 +getMessage(): String
 +setMessage(_message: String): void
-+getType(): String
-+setType(_type: String): void
-+getSignal(): String
-+setSignal(_signal: String): void
-+validate(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>340</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>280</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
++getType(): NotificationType
++setType(_type: NotificationType): void
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
