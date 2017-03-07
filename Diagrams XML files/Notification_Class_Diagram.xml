@@ -1,10 +1,10 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1050</x><y>330</y><w>240</w><h>100</h></coordinates><panel_attributes>/*NotificationType*/
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><help_text>Place for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1050</x><y>320</y><w>240</w><h>100</h></coordinates><panel_attributes>/*NotificationType*/
 --
 -userId: int
 --
 +getUserId(): int
 +setUserId(_userId: int): void
-+signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>520</y><w>240</w><h>140</h></coordinates><panel_attributes>*TextNotification*
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>510</y><w>240</w><h>130</h></coordinates><panel_attributes>*TextNotification*
 --
 -message  String
 -type: NotificationType
@@ -13,7 +13,7 @@
 +setMessage(_message: String): void
 +getType(): NotificationType
 +setType(_type: NotificationType): void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>470</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>440</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>520</y><w>240</w><h>140</h></coordinates><panel_attributes>*EmailNotification*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>460</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>430</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>510</y><w>240</w><h>130</h></coordinates><panel_attributes>*EmailNotification*
 --
 -message  String
 -type: NotificationType
@@ -22,7 +22,7 @@
 +setMessage(_message: String): void
 +getType(): NotificationType
 +setType(_type: NotificationType): void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>320</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Notification*/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>310</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Notification*/
 --
 -message  String
 -type: NotificationType
@@ -30,28 +30,33 @@
 +getMessage(): String
 +setMessage(_message: String): void
 +getType(): NotificationType
-+setType(_type: NotificationType): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>520</y><w>240</w><h>100</h></coordinates><panel_attributes>*Event*
++setType(_type: NotificationType): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>510</y><w>240</w><h>100</h></coordinates><panel_attributes>*Event*
 --
 -userId: int
 --
 +getUserId(): int
 +setUserId(_userId: int): void
-+signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>520</y><w>240</w><h>100</h></coordinates><panel_attributes>*PointOfInterest*
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>510</y><w>240</w><h>100</h></coordinates><panel_attributes>*PointOfInterest*
 --
 -userId: int
 --
 +getUserId(): int
 +setUserId(_userId: int): void
-+signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1470</x><y>520</y><w>240</w><h>100</h></coordinates><panel_attributes>*OwnActivity*
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1470</x><y>510</y><w>240</w><h>100</h></coordinates><panel_attributes>*OwnActivity*
 --
 -userId: int
 --
 +getUserId(): int
 +setUserId(_userId: int): void
-+signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1200</x><y>520</y><w>240</w><h>100</h></coordinates><panel_attributes>*Fitness*
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1200</x><y>510</y><w>240</w><h>100</h></coordinates><panel_attributes>*Fitness*
 --
 -userId: int
 --
 +getUserId(): int
 +setUserId(_userId: int): void
-+signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>470</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1310</x><y>470</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1030</x><y>470</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1170</x><y>420</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>360</y><w>690</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;670;10</additional_attributes></element></diagram>
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>460</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1310</x><y>460</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1030</x><y>460</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1170</x><y>410</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>350</y><w>690</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;670;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>100</y><w>210</w><h>80</h></coordinates><panel_attributes>*NotificationManager*
+--
+-notification: Notification
+--
++validate(): boolean
++notify(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>130</y><w>370</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>350;10;10;10;10;180</additional_attributes></element></diagram>
