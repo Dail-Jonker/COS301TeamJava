@@ -89,13 +89,19 @@ The system's interface will be largely web based. This is due to the fact that t
 				\item Javascript
 			\end{itemize}
 	\subsection{Database}
+Database and data storage is an integral part of the system.  The application heavily makes use of persisted data, be it user information or point of interest information etc.  Thus a large database with multiple tables needs to be maintained.  Given the system requires fast data retrieval, a technology that offers high performance at scale is used.
 		\begin{itemize}
+			\item MongoDB
 		\end{itemize}
 	\subsection{Networking}	
+The ability to communicate with the various routers around campus is of utmost importance.  The applications requires networking capabiilties in order to ping routers and deduce the user's location.  In order to do this a technology is employed to scan the surrounding routers and ping them.
 		\begin{itemize}
+			\item Nmap
 		\end{itemize}
 	\subsection{Navigation}
+
 		\begin{itemize}
+			\item GPS
 		\end{itemize}
 
 \end{document}
