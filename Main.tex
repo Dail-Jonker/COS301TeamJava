@@ -40,13 +40,16 @@ The mobile version of NavUp needs to funtion like any other mobile application. 
 	\subsection{Design Constraints}
 The mobile application cannot be too large in size. Users sometimes have limited space left on their smartphone device, this will then require the application to be as small as possible while stil maintaining propper functionality. The static data will be stored on a database along with any user information on a server which will reduce the size drastically. The map itself will be the largest part of the application, so care needs to be taken of what detail and size the map will consist of. The remainder of the apllication must take care not to overstep the size boundry(This will be set at a later stage, most likely in implementation). 
 	\subsection{Software System Attributes}
-	\begin{itemize}
-	\item Reliability:
-	\item Availability:
-	\item Security:
-	\item Maintainability:
-	\item Interoperability:
-	\end{itemize}
+		\subsubsection{Realiability}
+		The system itself will never crash or hang, excluding an operating system error. The system will provide alternatives when connection has been lost or when there is a delay when connecting. The system will continue to try and re-connect when connection has been lost.
+		\subsubsection{Availability}
+		The system will be available to all users that have access to a smartphone or tablet. A web based version will also be available to administrative users at all times.
+		\subsubsection{Security}
+		The user's information will be kept confidential and will not be used for other purposes than the system itself. Only administrative users will have access to this information. Information like passwords will be encrypted before it is saved on the database.
+		\subsubsection{Maintainabilty}
+		The code of the system will be modular to allow for future modifications to improve or add on to features. The code itself will be documented and authorship will be added for refrencing purposes. The system itself and the database will be maintained and monitored by the administrative users.
+		\subsubsection{Interoperability}
+		User devices will communicate with the system, exchanging information required for the functionality of the system. User devices will use this information to display relevant and required data to the user and in turn provide feedback to the system when updates are made.
 
 \section{UML Diagrams}
 	\subsection{Users}
