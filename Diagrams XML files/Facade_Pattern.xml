@@ -1,0 +1,64 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1660</x><y>790</y><w>240</w><h>100</h></coordinates><panel_attributes>*OwnActivity*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1390</x><y>790</y><w>240</w><h>100</h></coordinates><panel_attributes>*Fitness*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1500</x><y>740</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1220</x><y>740</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1240</x><y>600</y><w>240</w><h>100</h></coordinates><panel_attributes>/*NotificationType*/
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1360</x><y>690</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1110</x><y>790</y><w>240</w><h>100</h></coordinates><panel_attributes>*PointOfInterest*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>840</x><y>790</y><w>240</w><h>100</h></coordinates><panel_attributes>*Event*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>790</y><w>240</w><h>130</h></coordinates><panel_attributes>*EmailNotification*
+--
+-message  String
+-type: NotificationType
+--
++getMessage(): String
++setMessage(_message: String): void
++getType(): NotificationType
++setType(_type: NotificationType): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>790</y><w>240</w><h>130</h></coordinates><panel_attributes>*TextNotification*
+--
+-message  String
+-type: NotificationType
+--
++getMessage(): String
++setMessage(_message: String): void
++getType(): NotificationType
++setType(_type: NotificationType): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>740</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>710</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>590</y><w>240</w><h>130</h></coordinates><panel_attributes>/*Notification*/
+--
+-message  String
+-type: NotificationType
+--
++getMessage(): String
++setMessage(_message: String): void
++getType(): NotificationType
++setType(_type: NotificationType): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>630</y><w>690</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;670;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>380</y><w>210</w><h>80</h></coordinates><panel_attributes>*NotificationManager*
+--
+-notification: Notification
+--
++validate(): boolean
++notify(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>410</y><w>370</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>350;10;10;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>910</x><y>740</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>Text</id><coordinates><x>800</x><y>350</y><w>100</w><h>30</h></coordinates><panel_attributes>FACADE
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>340</x><y>550</y><w>100</w><h>30</h></coordinates><panel_attributes>PACKAGE
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element></diagram>

@@ -1,0 +1,83 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>820</x><y>518</y><w>240</w><h>100</h></coordinates><panel_attributes>*OwnActivity*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>468</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>518</y><w>240</w><h>100</h></coordinates><panel_attributes>*Fitness*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>468</y><w>310</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>290;50;290;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>418</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>328</y><w>240</w><h>100</h></coordinates><panel_attributes>/*NotificationType*/
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>518</y><w>240</w><h>100</h></coordinates><panel_attributes>*Event*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>518</y><w>240</w><h>100</h></coordinates><panel_attributes>*PointOfInterest*
+--
+-userId: int
+--
++getUserId(): int
++setUserId(_userId: int): void
++signal(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>468</y><w>340</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>320;50;320;20;10;20;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1774</x><y>659</y><w>590</w><h>90</h></coordinates><panel_attributes>Place
+--
+-type:String
+-activities:String[]
+--
+Place(type:String,activities:String,name:String,description:String,location:String,year_built:Date,size:Double)
++getActivities():String[]
++getType():String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1320</x><y>828</y><w>450</w><h>80</h></coordinates><panel_attributes>Structures
+--
+-structure_design:String
+--
++Structure(structure_design:String,name:String,description:String,location:String)
++getDesign():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1740</x><y>568</y><w>30</w><h>280</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;260</additional_attributes></element><element><id>Relation</id><coordinates><x>1874</x><y>569</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1230</x><y>618</y><w>470</w><h>150</h></coordinates><panel_attributes>Buildings
+--
+-architectural_history:String
+-lecture_halls:int
+-offices:int
+-bathrooms:int
+--
++Buildings(bathrooms:int,offices:int,lecture_halls:int,architectural_history:String,name:String,description:String,location:String)
++getHistory():String
++getNumberOfRooms():int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1500</x><y>568</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1400</x><y>288</y><w>540</w><h>290</h></coordinates><panel_attributes>Points_of_interest
+--
+-name:String
+-description: String
+-location:String
+-year_built: Date
+-size(in_cubic_meters):double
+--
++Points_of_interest(name:String,description:String,location:String,year_built:Date,size:Double)
++getLocation():String
++getDescription():String
++getName():String
++getYearBuilt():Date
++getSize():double
++search(name:String):String
++saveLocation(location:String):void
++getCurrentLocation():String
++addLocatior(locatior:String):void
++modifyLocatior(name:String,description:String,location:String,year_built:Date,size:Double)
++removeLocatior(locatior:String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>1400</x><y>248</y><w>120</w><h>30</h></coordinates><panel_attributes>SUBJECT BASE
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>1230</x><y>768</y><w>160</w><h>30</h></coordinates><panel_attributes>CONCRETE SUBJECT
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>400</x><y>288</y><w>120</w><h>30</h></coordinates><panel_attributes>OBSERVER BASE
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>0</x><y>628</y><w>170</w><h>30</h></coordinates><panel_attributes>CONCRETE OBSERVER
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>628</y><w>170</w><h>30</h></coordinates><panel_attributes>CONCRETE OBSERVER
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>550</x><y>628</y><w>170</w><h>30</h></coordinates><panel_attributes>CONCRETE OBSERVER
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>820</x><y>628</y><w>170</w><h>30</h></coordinates><panel_attributes>CONCRETE OBSERVER
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>1320</x><y>918</y><w>160</w><h>30</h></coordinates><panel_attributes>CONCRETE SUBJECT
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>1780</x><y>758</y><w>160</w><h>30</h></coordinates><panel_attributes>CONCRETE SUBJECT
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>358</y><w>790</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;770;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>608</y><w>900</w><h>500</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>880;190;880;480;10;480;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1280</x><y>900</y><w>310</w><h>210</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>290;10;290;190;10;190</additional_attributes></element><element><id>Relation</id><coordinates><x>1560</x><y>740</y><w>500</w><h>370</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>480;10;480;350;10;350</additional_attributes></element></diagram>
