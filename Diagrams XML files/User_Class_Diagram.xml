@@ -1,33 +1,20 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>50</y><w>280</w><h>230</h></coordinates><panel_attributes>User
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>351</y><w>360</w><h>60</h></coordinates><panel_attributes>Registered User
+--
+-isAdmin: bool
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>351</y><w>210</w><h>40</h></coordinates><panel_attributes>Guest User
+--
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>241</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>271</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>271</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>281</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>281</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>131</y><w>280</w><h>120</h></coordinates><panel_attributes>User
 --
 -username: String
 -password: String
 -email: String
 -userID: long
 -userNumber: String
---
-+getUsername(_userID: long): String
-+getUserID(): long
-+getUserEmail(_userID: long): String
-+setUsername(_userID: long): void
-+setUserID(_userID: long): void
-+setUserEmail(_userID: long): void
-+authenticate(email: String): void
-+notifyUser(emal: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>380</y><w>360</w><h>130</h></coordinates><panel_attributes>Registered User
---
--isAdmin: bool
---
-+crudProfile(_userID: long): void
--manageUserInfo(_userID: long, _isAdmin: bool): void
--removeAdminRights(_userID: long, _isAdmin: bool): void
--grantAdminRights(_userID: long, _isAdmin: bool): void
--removeUser(_userID: long, _isAdmin: bool): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>380</y><w>210</w><h>60</h></coordinates><panel_attributes>Guest User
---
-+register(): void
-+login(): void
-
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>270</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>300</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>300</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>310</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>310</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
+--</panel_attributes><additional_attributes></additional_attributes></element></diagram>
