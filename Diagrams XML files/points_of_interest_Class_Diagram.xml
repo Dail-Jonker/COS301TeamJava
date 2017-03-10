@@ -1,44 +1,23 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>170</x><y>0</y><w>540</w><h>290</h></coordinates><panel_attributes>Points_of_interest
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>460</x><y>170</y><w>250</w><h>120</h></coordinates><panel_attributes>Points_of_interest
 --
 -name:String
 -description: String
 -location:String
 -year_built: Date
 -size(in_cubic_meters):double
---
-+Points_of_interest(name:String,description:String,location:String,year_built:Date,size:Double)
-+getLocation():String
-+getDescription():String
-+getName():String
-+getYearBuilt():Date
-+getSize():double
-+search(name:String):String
-+saveLocation(location:String):void
-+getCurrentLocation():String
-+addLocatior(locatior:String):void
-+modifyLocatior(name:String,description:String,location:String,year_built:Date,size:Double)
-+removeLocatior(locatior:String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>310</y><w>470</w><h>150</h></coordinates><panel_attributes>Buildings
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>340</y><w>160</w><h>110</h></coordinates><panel_attributes>Buildings
 --
 -architectural_history:String
 -lecture_halls:int
 -offices:int
 -bathrooms:int
 --
-+Buildings(bathrooms:int,offices:int,lecture_halls:int,architectural_history:String,name:String,description:String,location:String)
-+getHistory():String
-+getNumberOfRooms():int
-
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>480</y><w>450</w><h>80</h></coordinates><panel_attributes>Structures
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>340</y><w>140</w><h>110</h></coordinates><panel_attributes>Structures
 --
 -structure_design:String
---
-+Structure(structure_design:String,name:String,description:String,location:String)
-+getDesign():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>280</y><w>30</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;200</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>280</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>544</x><y>351</y><w>590</w><h>90</h></coordinates><panel_attributes>Place
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>280</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>280</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>654</x><y>341</y><w>190</w><h>110</h></coordinates><panel_attributes>Place
 --
 -type:String
 -activities:String[]
 --
-Place(type:String,activities:String,name:String,description:String,location:String,year_built:Date,size:Double)
-+getActivities():String[]
-+getType():String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>644</x><y>281</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>644</x><y>281</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
