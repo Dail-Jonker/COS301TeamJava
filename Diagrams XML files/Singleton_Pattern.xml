@@ -1,4 +1,4 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>890</x><y>390</y><w>270</w><h>260</h></coordinates><panel_attributes>Navigation 
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>190</x><y>100</y><w>270</w><h>140</h></coordinates><panel_attributes>Navigation 
 --
 -start_location: String 
 -end_destination: String 
@@ -7,13 +7,6 @@
 -notification: Notification
 -route_preferences: String[]
 --
-+setStartLocation(start_location:String):void 
-+setEndDestination(end_destination:String):void 
-+findOptimalRoute():void 
-+calculateDistance():double 
-+checkTrafficLevel():int
-+modifyRoute(_traffic_Level:int):void
-+saveRoute(current_Route:String):void
-+deleteRoute(delete_Route:String):void
-+getRoute():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>980</x><y>360</y><w>100</w><h>30</h></coordinates><panel_attributes>SINGLETON
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>280</x><y>70</y><w>100</w><h>30</h></coordinates><panel_attributes>SINGLETON
 style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element></diagram>
