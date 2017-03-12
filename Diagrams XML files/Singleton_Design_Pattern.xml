@@ -1,0 +1,4 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>890</x><y>390</y><w>270</w><h>260</h></coordinates><panel_attributes>Navigation 
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>980</x><y>360</y><w>100</w><h>30</h></coordinates><panel_attributes>*SINGLETON*
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element></diagram>
