@@ -1,23 +1,10 @@
-<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>460</x><y>170</y><w>250</w><h>120</h></coordinates><panel_attributes>Points_of_interest
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>240</x><y>190</y><w>260</w><h>40</h></coordinates><panel_attributes>Points Of Interest
 --
--name:String
--description: String
--location:String
--year_built: Date
--size(in_cubic_meters):double
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>340</y><w>160</w><h>110</h></coordinates><panel_attributes>Buildings
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>310</y><w>160</w><h>40</h></coordinates><panel_attributes>Buildings
 --
--architectural_history:String
--lecture_halls:int
--offices:int
--bathrooms:int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>310</y><w>160</w><h>40</h></coordinates><panel_attributes>Structures
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>340</y><w>140</w><h>110</h></coordinates><panel_attributes>Structures
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>310</y><w>160</w><h>40</h></coordinates><panel_attributes>Place
 --
--structure_design:String
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>280</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>280</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>654</x><y>341</y><w>190</w><h>110</h></coordinates><panel_attributes>Place
---
--type:String
--activities:String[]
---
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>644</x><y>281</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>220</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>260</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>260</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>260</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>260</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
