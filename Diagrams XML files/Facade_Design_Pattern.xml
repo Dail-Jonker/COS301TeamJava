@@ -1,0 +1,23 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1290</x><y>554</y><w>160</w><h>110</h></coordinates><panel_attributes>OwnActivity
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1080</x><y>554</y><w>170</w><h>110</h></coordinates><panel_attributes>Fitness
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1190</x><y>494</y><w>200</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>180;60;180;20;10;20;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>940</x><y>494</y><w>280</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>260;60;260;20;10;20;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1000</x><y>344</y><w>150</w><h>100</h></coordinates><panel_attributes>NotificationType
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1060</x><y>434</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>880</x><y>554</y><w>170</w><h>110</h></coordinates><panel_attributes>PointOfInterest
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>670</x><y>554</y><w>170</w><h>110</h></coordinates><panel_attributes>Event
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>544</y><w>200</w><h>120</h></coordinates><panel_attributes>EmailNotification
+--
+
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>544</y><w>180</w><h>120</h></coordinates><panel_attributes>TextNotification
+--
+fontsize=16
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>494</y><w>320</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>300;50;300;20;10;20;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>434</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>334</y><w>170</w><h>110</h></coordinates><panel_attributes>Notification
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>374</y><w>570</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;550;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>214</y><w>160</w><h>90</h></coordinates><panel_attributes>NotificationManager
+--
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>244</y><w>180</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>494</y><w>220</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>200;60;200;20;10;20;10;60</additional_attributes></element><element><id>Text</id><coordinates><x>530</x><y>184</y><w>100</w><h>30</h></coordinates><panel_attributes>*FACADE*
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>280</x><y>304</y><w>100</w><h>30</h></coordinates><panel_attributes>*PACKAGE*
+style=wordwrap</panel_attributes><additional_attributes></additional_attributes></element></diagram>
