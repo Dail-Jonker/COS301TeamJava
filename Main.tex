@@ -1,6 +1,9 @@
 \documentclass{article}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{rotating}
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -63,6 +66,7 @@ The mobile application cannot be too large in size. Users sometimes have limited
 In this section of the document the various diagrams of the sub-systems will be illustrated. The main diagrams will include a Use Case and Class diagrams. State, Sequence and Activity diagrams may be included to expand on non-trivial functionality.
 	\subsection{Users}
 	The following Diagrams include a Use Case and Class diagram for the User sub-system:	
+	\FloatBarrier	
 	\begin{figure}[h]
 		\centering
   		\includegraphics[width=\textwidth]{Images/UsersUseCase.png}
@@ -71,9 +75,10 @@ In this section of the document the various diagrams of the sub-systems will be 
 	\centering
   		\includegraphics[width=\textwidth]{Images/UserClass.png}
 	\end{figure}
-	
+	\FloatBarrier
 	\subsection{Navigation}
 	The following Diagrams include a Use Case, State and Class diagram for the Navigation sub-system:
+	\FloatBarrier	
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/NavigationUseCase.png}
 	\end{figure}
@@ -83,52 +88,56 @@ In this section of the document the various diagrams of the sub-systems will be 
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/NavigationState.png}
 	\end{figure}
-	
+	\FloatBarrier	
 	\subsection{Notification}
 	The following Diagrams include a Use Case, Sequence and Class diagram for the Notification sub-system:
+	\FloatBarrier	
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/NotificationUseCase.png}
 	\end{figure}
-	\begin{figure}[h]
+	\begin{sidewaysfigure}[h]
   		\includegraphics[width=\textwidth]{Images/NotificationClass.png}
-	\end{figure}
+	\end{sidewaysfigure}
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/NotificationSequence.png}
 	\end{figure}
-	
+	\FloatBarrier	
 	\subsection{Points of Interest}
 	The following Diagrams include a Use Case and Class diagram for the Points of Interest sub-system:
+	\FloatBarrier	
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/POIUseCase.png}
 	\end{figure}
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/POIClass.png}
 	\end{figure}
-	
+	\FloatBarrier	
 \section{Deployment Diagram}
 The following Deployment diagram will illustrate the system as a whole, visualizing hardware, platforms and the software that runs on it:
+	\FloatBarrier	
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/Deployment.png}
 	\end{figure}
-	\mbox{}\\
-	\bigskip
+	\FloatBarrier	
 
 \section{Design Pattern}
 The following will explain the various design patterns chosen:
 
 The following diagram will illustrate the chosen design patterns and how they might communicate with each other:
-	\begin{figure}[h]
+	\FloatBarrier	
+	\begin{sidewaysfigure}[h]
   		\includegraphics[width=\textwidth]{Images/Facade.png}
-	\end{figure}
-	\begin{figure}[h]
+	\end{sidewaysfigure}
+	\begin{sidewaysfigure}[h]
   		\includegraphics[width=\textwidth]{Images/Factory.png}
-	\end{figure}
-	\begin{figure}[h]
+	\end{sidewaysfigure}
+	\begin{sidewaysfigure}[h]
   		\includegraphics[width=\textwidth]{Images/Observer.png}
-	\end{figure}
+	\end{sidewaysfigure}
 	\begin{figure}[h]
   		\includegraphics[width=\textwidth]{Images/Singleton.png}
 	\end{figure}
+	\FloatBarrier	
 
 \section{Technologies}
 The application makes use of various technologies in order to implement its functionality. These technologies include, but are not limited to, back end programming languages, web design technologies, web development technologies, navigation technologies, networking technologies and database technologies.  The technologies used are based on the implementation designed and specified within this document.  
